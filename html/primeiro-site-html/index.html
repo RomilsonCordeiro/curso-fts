@@ -7,6 +7,25 @@
 </head>
 <body>
 
+    <table>
+      <thead>
+        
+      </thead>
+      <tbody>
+        <tr>
+          <td>           
+            <figure> <img src="/img/vulpera.png" alt="img vulpera wow"/> </figure>    
+          </td>
+          <td>
+            <h1> Romilson Cordeiro e Silva Filho </h1>
+            <p> Trabalho na loja de materiais hidraúlicos <strong> <a href="https://centralparkergm.com.br/" target="_blank"> Central GM Equipamentos Hidráulicos.</strong> </a> </p>
+            <p> Tenho 22 anos. Trabalho na loja um pouco há mais de 2 anos. Sou servo de Deus. Gosto de jogar vídeo games.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table> <hr/>
+
+
     <!-- Agora vou colocar uma imagem. Para isso se usa a tag <figure></figure>.
      Serve para definir que ali terá uma figura.-->
 
@@ -16,18 +35,14 @@
     <!-- Para arrendondar uma imagem no html sem o css, é necessário utilizar programas ou sites externos.
         Um site recomendado é o "https://circlecropimage.com/"-->
 
-     <figure>
-        <img src="/img/vulpera.png" alt="img vulpera wow" style="width: 18%;"/>
-    </figure>
+     
   
     <!-- Agora vou inserir links no html.
       Para inserir links se usa a tag <a> href=" " target="_blank"> Clique Aqui! </a>.
       O atributo 'href' serve para colocar o endereço(link) para onde o usuario será direcionado ao clicar no link.
       O atributo 'target=_blank' serve para que ao clicar no link, ele seja aberto em outra aba, permitindo manter a aba atual aberta.-->
 
-    <h1> Romilson Cordeiro e Silva Filho </h1>
-    <p> Trabalho na loja de materiais hidraúlicos <strong> <a href="https://centralparkergm.com.br/" target="_blank"> Central GM Equipamentos Hidráulicos.</strong> </a> </p>
-    <p> Tenho 22 anos. Trabalho aqui um pouco há mais de 2 anos. Sou servo de Deus. Gosto de jogar vídeo games.</p> <hr />
+    
     <h2> Jogos que eu estou jogando</h2>
 
     <!-- <ul></ul> É a tag para criar listas não ordenadas. São listas representadas com "bullets",
@@ -51,18 +66,43 @@
     
     <h2> <strong> <a href="/contato/contato.html" target="_blank"> Entre em Contato </a> </strong> </h2>
 
+    <!-- Vou criar uma tabela.
+     Tags da tabela:
+     <table></table> Para criar o espaço da tabela.
+
+     <thead></thead> Para colocar os elementos de título. Para uma melhor semântica.
+     <tr></tr> Para crias uma linha na tabela. Aqui dentro são colocadas a tag das células como <th></th> e <td></td>.
+      Para criar uma linha abaixo, deve criar outra tag <tr></tr>.
+     <th></th> Para criar um título na tabela, semelhante a tag <h1></h1>.
+     
+     <tbody></tbody> Para colocar os elementos do corpo da tabela. Também para uma melhor semântica.
+     <tr></tr> Para criar uma linha na tabela, da mesma maneira que na tag <thead></thead>.
+     <td></td> Para crias as células da tabela(Cada quadradinho da tabela). -->
+
     <h3> Experiências </h3>
-    <table>
+    <table border="1">
       <thead>
         <tr>
-          <td></td>
+          <th> Datas </th>
+          <th> Descrição </th>
         </tr>
       </thead>
       <tbody>
-
+        <tr>
+          <td> 2020 </td>
+          <td> Conclusão do ensino médio </td>
+        </tr>
+        <tr>
+          <td> 2022 </td>
+          <td> Comprei o pczão bala </td>
+        </tr>
+        <tr>
+          <td> 2023 </td>
+          <td> Comecei a trabalhar na Central GM </td> 
+        </tr>
       </tbody>
     </table>
     
-
+    
 </body>
 </html>
