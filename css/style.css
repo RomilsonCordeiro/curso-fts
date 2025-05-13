@@ -10,6 +10,21 @@ hr {
     width: 5%;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     color: #66bfbf;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    color: white;
+}
+
+td,
+th {
+    color: white;
 }
