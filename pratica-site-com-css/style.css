@@ -1,7 +1,12 @@
+body {
+    background-color: #173a6e;
+}
+
 h1,
 h2,
 h3 {
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 hr {
@@ -14,6 +19,7 @@ tr,
 td,
 th {
     border: 2px solid;
+    color: white;
 }
 
 td {
@@ -21,10 +27,87 @@ td {
 }
 
 table {
-    border-spacing: 5px;
+    border-spacing: 6px;
+    background-color: rgba(0, 0, 0, 0.589);
 }
 
 .center-table {
     margin-left: auto;
     margin-right: auto;
+}
+
+.brasilflag {
+    width: 280px;
+    height: 195px;
+    filter: saturate(1.5);
+}
+
+.brasilflag:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 15mm rgb(0, 214, 0));
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.espanhaflag {
+    width: 280px;
+    height: 195px;
+    filter: saturate(1.5);
+}
+
+.espanhaflag:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 15mm rgb(255, 208, 0));
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.portugalflag {
+    width: 280px;
+    height: 195px;
+    filter: saturate(1.5);
+}
+
+.portugalflag:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 15mm rgb(255, 0, 0));
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.francaflag {
+    width: 280px;
+    height: 195px;
+    filter: saturate(1.5);
+}
+
+.francaflag:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 15mm rgb(0, 26, 255));
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.copas {
+    filter: drop-shadow(0 0 5px rgb(255, 196, 0));
+}
+
+.copas:hover {
+    cursor: default;
+    filter: drop-shadow(0 0 5px rgb(255 196 0));
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.5);
+}
+
+.ruim {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(0 0 5px rgb(255, 0, 0));
+    color: red;
+}
+
+.ruim:hover {
+    cursor: default;
+    filter: drop-shadow(0 0 5px rgb(255 0 0));
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.5);
 }
