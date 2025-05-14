@@ -44,7 +44,7 @@ table {
 
 .brasilflag:hover {
   cursor: pointer;
-  filter: drop-shadow(0 0 15mm rgb(0, 214, 0));
+  animation: trocar-cor-brasil 5s linear infinite;
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
 }
@@ -114,19 +114,33 @@ table {
 
 .bola {
   display: inline-block;
-  animation: bola-girando 2s linear infinite;
+  animation: bola-girando 5s linear infinite;
 }
 
 @keyframes bola-girando {
   0% {
-    transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1)
+    filter: drop-shadow(0 0 5mm rgb(255, 255, 255));
   }
 
   50% {
     transform: rotate(180deg) scale(1.5);
+    filter: drop-shadow(0 0 5mm rgba(255, 255, 255, 0.48));
   }
 
   100% {
     transform: rotate(360deg) scale(1);
+    filter: drop-shadow(0 0 5mm rgba(255, 255, 255, 0));
+  }
+}
+
+@keyframes trocar-cor-brasil {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 20mm rgb(0, 214, 0));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 20mm rgb(255, 230, 0));
   }
 }
