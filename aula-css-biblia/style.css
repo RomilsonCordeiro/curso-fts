@@ -1,0 +1,21 @@
+/*=====SEÇÃO DE TAGS=====*/
+h1 {
+    color: blue;
+}
+
+/*=====SEÇÃO DE CLASSES=====*/
+
+.biblia {
+    background-color: blue;
+    width: 15%;
+}
+
+.cruz-roxa {
+    background-color: purple;
+}
+
+/*=====SEÇÃO DE IDs=====*/
+
+#cabeçalho {
+    color: springgreen;
+}
