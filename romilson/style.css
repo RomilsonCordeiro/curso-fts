@@ -13,24 +13,4 @@ p {
 
 .caixa-header {
     background-color: rgb(0, 0, 121);
-    height: 200px;
-    width: 200px;
-    border: solid 10px;
-    padding: 20px;
-}
-
-.caixa-main {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border: solid 20px;
-    margin-left: 260px;
-}
-
-.caixa-footer {
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    border: solid 10px;
-    margin-left: 500px;
 }
