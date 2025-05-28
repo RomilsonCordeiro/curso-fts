@@ -1,54 +1,156 @@
-/*=====TAGS=====*/
-body {
+* {
     margin: 0;
-}
-
-h1 {
-    margin: 0;
-    font-weight: bold;
-    color: yellow;
-}
-
-h2,
-p {
-    margin: 0;
-}
-
-h2,
-h3 {
-    color: yellow;
-}
-
-p {
-    color: white;
-    margin-left: 20%;
+    padding: 0;
 }
 
 header {
     background-color: rgb(0, 0, 0);
-    display: block;
+    height: 10%;
+    width: 100%;
     text-align: center;
 }
 
-main {
-    background-color: rgb(6, 6, 65);
+h1 {
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: yellow;
+    text-align: center;
+    border: solid 3px;
+    border-radius: 18px;
+    filter: drop-shadow(0 0 7mm yellow);
 }
 
-footer {
-    background-color: rgb(0, 0, 0);
-    height: 8vh;
+
+main {
+    background-color: rgb(56, 55, 55);
+    height: 100%;
     width: 100%;
-    position: sticky;
-    bottom: 0;
+}
+
+h2 {
+    margin-bottom: 5%;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 350%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+    font-weight: bold;
+    text-decoration: underline yellow;
+    -webkit-text-stroke: 3px black;
+}
+
+h2:hover {
+    cursor: default;
+    filter: drop-shadow(0 0 7mm yellow);
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.main-kid {
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
 img {
-    width: 200px;
+    height: 200px;
+    width: 250px;
+    border-radius: 150px;
+    border: solid;
+    filter: drop-shadow(0 0 5mm white);
 }
 
-/*=====CLASSES=====*/
+.foto-kid {
+    position: relative;
+    left: 10%;
+}
 
-.subtitulo {
-    display: block;
-    text-align: center;
+.texto-kid {
+    position: relative;
+    left: 12%;
+}
+
+h3 {
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pkid {
+    font-size: 120%;
+    color: white;
+    font-style: oblique;
+}
+
+.main-padawan {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.foto-padawan {
+    position: relative;
+    left: 22%;
+}
+
+.texto-padawan {
+    position: relative;
+    text-align: end;
+    left: 20%;
+}
+
+.ppadawan {
+    font-size: 120%;
+    color: white;
+    font-style: oblique;
+}
+
+.main-anger {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.foto-anger {
+    position: relative;
+    left: 10%;
+}
+
+.texto-anger {
+    position: relative;
+    left: 12%;
+}
+
+.panger {
+    font-size: 120%;
+    color: white;
+    font-style: oblique;
+}
+
+.main-vader {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.foto-vader {
+    position: relative;
+    left: 22%;
+}
+
+.texto-vader {
+    position: relative;
+    text-align: end;
+    left: 20%;
+}
+
+.pvader {
+    font-size: 120%;
+    color: white;
+    font-style: oblique;
 }
