@@ -48,6 +48,7 @@ h2:hover {
 }
 
 .main-kid {
+    background-color: green;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -72,7 +73,8 @@ img {
 }
 
 h3 {
-    padding-top: 5%;
+    background-color: red;
+    padding-top: 20px;
     margin-bottom: 5%;
     font-weight: bold;
     font-size: 150%;
