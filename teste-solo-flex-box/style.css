@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     justify-content: center;
     height: 60px;
-    width: 500px;
+    width: 800px;
     border: solid 3px black;
     background-color: rgba(0, 0, 255, 0.623);
 }
@@ -70,10 +70,10 @@ h1 {
 
 .main-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 500px;
-    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    width: 800px;
     border: solid 3px black;
     background-color: rgba(0, 0, 255, 0.623);
 }
@@ -98,4 +98,88 @@ h1 {
     width: 100%;
     margin-left: 5%;
     color: white;
+}
+
+.games-news {
+    height: 250px;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.games-h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 12%;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.p-games {
+    margin-top: 3px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 75%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.animes-news {
+    height: 250px;
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.animes-h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+    height: 12%;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.p-animes {
+    margin-top: 3px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.288);
+    height: 75%;
+    width: 100%;
+    border-radius: 15px;
 }
