@@ -71,7 +71,7 @@ h1 {
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 500px;
     width: 800px;
     border: solid 3px black;
     background-color: rgba(0, 0, 255, 0.623);
@@ -156,7 +156,82 @@ h1 {
     justify-content: top;
     align-items: start;
     width: 50%;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    border: solid 3px rgb(255, 255, 255);
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.animes-h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.p-animes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.9rem;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.220);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+.footer-container {
+    background-color: rgba(0, 0, 255, 0.623);
+    height: 50px;
+    width: 800px;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.copyright-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: white;
 }
