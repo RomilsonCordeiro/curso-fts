@@ -9,13 +9,14 @@
     }
 }*/
 
-function samugay(){
-    let num = Math.random() * 10
-    num = Math.floor(num + 1)
+function samugay() {
+  let num = Math.random() * 10;
+  num = Math.floor(num + 1);
 
-    if (num % 2 === 0){
-        console.log('Samuca GAY')
-    } else {
-        console.log('Samuca PETISTA')
-    }
-} samugay()
+  if (num % 2 === 0) {
+    console.log("Samuca GAY");
+  } else {
+    console.log("Samuca PETISTA");
+  }
+}
+samugay();
