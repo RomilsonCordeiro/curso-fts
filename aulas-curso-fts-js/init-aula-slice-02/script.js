@@ -1,0 +1,3 @@
+let msg =
+  "dscnbvljndvjksvoADJVAKJNV KLSNMVKMVKIOWVIOVKOSDLMSPVOKSWK0VISWVPDVLDMFOBNIEVEIVIISXVVHREKOSOSDSOTURPOFKdffwerfethwrhrthrthrththrhrthrththrthrthrththrthrthrthrthrthrhrhrthrthtrhtrhrthrhrthrthrththrthrthtrhrthtrhthrthrthrthtrhrtPVJP";
+console.log(msg.slice(0, 140));
