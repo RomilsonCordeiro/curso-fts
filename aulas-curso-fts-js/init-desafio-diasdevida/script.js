@@ -1,8 +1,16 @@
-function lifeInWeeks(age){
-    let yearsRemaining = 90 - age
-    let months = yearsRemaining * 12
-    let weeks = yearsRemaining * 52
-    let days = yearsRemaining * 365
-    console.log('Você ainda tem ' + days + ' dias, ' + weeks + ' semanas e ' + months + ' meses de vida.')
+function tempoDeVida(idade) {
+  let resto = 90 - idade;
+  let dias = resto * 365;
+  let semanas = resto * 52;
+  let meses = resto * 12;
+  console.log(
+    "Você ainda tem " +
+      dias +
+      " dias, " +
+      semanas +
+      " semanas e " +
+      meses +
+      " meses de vida restantes."
+  );
 }
-lifeInWeeks(82)
+tempoDeVida(56);
