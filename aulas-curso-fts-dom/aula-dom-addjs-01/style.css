@@ -1,3 +1,9 @@
-.botao:active {
-    color: red;
+.hidden-btn {
+    visibility: hidden;
+}
+
+.big {
+    font-size: 10rem;
+    font-weight: bolder;
+    color: blue;
 }
