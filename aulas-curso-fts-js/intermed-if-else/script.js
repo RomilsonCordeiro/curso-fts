@@ -18,5 +18,7 @@ function samugay() {
   } else {
     console.log("Samuca PETISTA");
   }
+
+  console.log(num);
 }
 samugay();
